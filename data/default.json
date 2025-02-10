@@ -1,1 +1,122 @@
-{"primaries": [{"name": "AR-23 Liberator", "slot": "Primary", "type": "Assault Rifle"}, {"name": "R-63 Diligence", "slot": "Primary", "type": "Marksman Rifle"}], "secondaries": [{"name": "P-2 Peacemaker", "slot": "Secondary", "type": "Pistol"}, {"name": "P-19 Redeemer", "slot": "Secondary", "type": "Marksman Rifle"}]}
+{
+    "primaries": [
+        {
+            "name": "AR-23 Liberator",
+            "slot": "Primary",
+            "tags": [
+                "assault_rifle"
+            ]
+        },
+        {
+            "name": "SG-8 Punisher",
+            "slot": "Primary",
+            "tags": [
+                "shotgun"
+            ]
+        },
+        {
+            "name": "R-63 Diligence",
+            "slot": "Primary",
+            "tags": [
+                "marksman_rifle",
+                "sniper"
+            ]
+        },
+        {
+            "name": "SMG-37 Defender",
+            "slot": "Primary",
+            "tags": [
+                "smg"
+            ]
+        },
+        {
+            "name": "SG-8 Punisher",
+            "slot": "Primary",
+            "tags": [
+                "shotgun"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "P-2 Peacemaker",
+            "slot": "Secondary",
+            "tags": [
+                "pistol"
+            ]
+        },
+        {
+            "name": "P-19 Redeemer",
+            "slot": "Secondary",
+            "tags": [
+                "pistol",
+                "smg"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-12 High Explosive",
+            "slot": "Throwable",
+            "tags": [
+                "grenade"
+            ]
+        },
+        {
+            "name": "G-6 Frag",
+            "slot": "Throwable",
+            "tags": [
+                "grenade"
+            ]
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "MG-43 Machine Gun",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "high_fire_rate"
+            ]
+        },
+        {
+            "name": "Orbital Precision Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "bomb"
+            ]
+        },
+        {
+            "name": "AMR-1 Anti-Materiel Rifle",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "sniper"
+            ]
+        },
+        {
+            "name": "M-105 Stalwart",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "high_fire_rate"
+            ]
+        },
+        {
+            "name": "EAT-17 Expendable Anti-Tank",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "anti_tank"
+            ]
+        },
+        {
+            "name": "Orbital Gatling Barrage",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital"
+            ]
+        }
+    ]
+}

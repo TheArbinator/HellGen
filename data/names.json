@@ -1,0 +1,30 @@
+{
+    "adjectives": [
+        "Freedom",
+        "Righteous",
+        "Democratic",
+        "Crazy",
+        "Space", 
+        "Ultimate",
+        "Glorious"
+    ],
+    "nouns": [
+        "Blaster",
+        "Dominator",
+        "Wrath",
+        "Cadet",
+        "Crusher",
+        "Annihilator",
+        "Bug Spray",
+        "Robo-Reaper",
+        "Toaster",
+        "Roaster"
+    ],
+    "suffixes": [
+        "Doom",
+        "Freedom",
+        "Democracy",
+        "Glory"
+    ],
+    "suffix_probability": 0.2
+}
