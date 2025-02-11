@@ -35,6 +35,55 @@
             "tags": [
                 "shotgun"
             ]
+        },
+        {
+            "name": "LAS-5 Scythe",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "laser"
+            ]
+        },
+        {
+            "name": "AR-23P Liberator Penetrator",
+            "slot": "Primary",
+            "tags": [
+                "assault_rifle",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "R-63CS Diligence Counter Sniper",
+            "slot": "Primary",
+            "tags": [
+                "marksman_rifle",
+                "sniper",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "SG-8S Slugger",
+            "slot": "Primary",
+            "tags": [
+                "shotgun"
+            ]
+        },
+        {
+            "name": "SG-225SP Breaker Spray&Pray",
+            "slot": "Primary",
+            "tags": [
+                "shotgun",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "PLAS-1 Scorcher",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "plasma",
+                "armor_piercing"
+            ]
         }
     ],
     "secondaries": [
@@ -59,14 +108,24 @@
             "name": "G-12 High Explosive",
             "slot": "Throwable",
             "tags": [
-                "grenade"
+                "grenade",
+                "explosive"
             ]
         },
         {
             "name": "G-6 Frag",
             "slot": "Throwable",
             "tags": [
-                "grenade"
+                "grenade",
+                "explosive"
+            ]
+        },
+        {
+            "name": "G-16 Impact",
+            "slot": "Throwable",
+            "tags": [
+                "grenade",
+                "explosive"
             ]
         }
     ],
@@ -76,7 +135,8 @@
             "slot": "Stratagem",
             "tags": [
                 "support_weapon",
-                "high_fire_rate"
+                "high_fire_rate",
+                "armor_piercing"
             ]
         },
         {
@@ -92,7 +152,8 @@
             "slot": "Stratagem",
             "tags": [
                 "support_weapon",
-                "sniper"
+                "sniper",
+                "armor_piercing"
             ]
         },
         {
@@ -108,7 +169,89 @@
             "slot": "Stratagem",
             "tags": [
                 "support_weapon",
-                "anti_tank"
+                "anti_tank",
+                "explosive"
+            ]
+        },
+        {
+            "name": "GR-8 Recoilless Rifle",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "anti_tank",
+                "explosive",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "FLAM-40 Flamethrower",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "fire"
+            ]
+        },
+        {
+            "name": "AC-8 Autocannon",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "explosive",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "MG-206 Heavy Machine Gun",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "high_fire_rate",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "RL-77 Airburst Rocket Launcher",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "explosive"
+            ]
+        },
+        {
+            "name": "MLS-4X Commando",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "explosive",
+                "anti_tank",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "RS-422 Railgun",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "precision",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "FAF-14 Spear",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "explosive",
+                "anti_tank",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "StA-X3 W.A.S.P. Launcher",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "explosive"
             ]
         },
         {
@@ -116,6 +259,369 @@
             "slot": "Stratagem",
             "tags": [
                 "orbital"
+            ]
+        },
+        {
+            "name": "Orbital Airburst Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital"
+            ]
+        },
+        {
+            "name": "Orbital 120mm HE Barrage",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "explosive",
+                "bomb"
+            ]
+        },
+        {
+            "name": "Orbital 380mm HE Barrage",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "explosive",
+                "bomb"
+            ]
+        },
+        {
+            "name": "Orbital Walking Barrage",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "explosive",
+                "bomb"
+            ]
+        },
+        {
+            "name": "Orbital Napalm Barrage",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "fire",
+                "explosive"
+            ]
+        },
+        {
+            "name": "Orbital Laser",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "laser",
+                "energy"
+            ]
+        },
+        {
+            "name": "Orbital Railcannon Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "orbital",
+                "sniper",
+                "anti_tank"
+            ]
+        },
+        {
+            "name": "Eagle Strafing Run",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle"
+            ]
+        },
+        {
+            "name": "Eagle Airstrike",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle",
+                "explosive",
+                "bomb"
+            ]
+        },
+        {
+            "name": "Eagle Cluster Bomb",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle",
+                "bomb"
+            ]
+        },
+        {
+            "name": "Eagle Napalm Airstrike",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle",
+                "bomb",
+                "explosive",
+                "fire"
+            ]
+        },
+        {
+            "name": "LIFT-850 Jump Pack",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack"
+            ]
+        },
+        {
+            "name": "Eagle Smoke Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle",
+                "smoke"
+            ]
+        },
+        {
+            "name": "Eagle 110mm Rocket Pods",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle",
+                "explosive",
+                "bomb",
+                "anti_tank"
+            ]
+        },
+        {
+            "name": "Eagle 500KG Bomb",
+            "slot": "Stratagem",
+            "tags": [
+                "eagle",
+                "explosive",
+                "bomb"
+            ]
+        },
+        {
+            "name": "M-102 Fast Recon Vehicle",
+            "slot": "Stratagem",
+            "tags": [
+                "vehicle"
+            ]
+        },
+        {
+            "name": "Orbital Gas Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "vehicle",
+                "gas"
+            ]
+        },
+        {
+            "name": "Orbital EMS Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "vehicle"
+            ]
+        },
+        {
+            "name": "Orbital EMS Strike",
+            "slot": "Stratagem",
+            "tags": [
+                "vehicle",
+                "smoke"
+            ]
+        },
+        {
+            "name": "E/MG-101 HMG Emplacement",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "FX-12 Shield Generator Relay",
+            "slot": "Stratagem",
+            "tags": [
+                "shield",
+                "energy"
+            ]
+        },
+        {
+            "name": "A/ARC-3 Tesla Tower",
+            "slot": "Stratagem",
+            "tags": [
+                "energy",
+                "arc"
+            ]
+        },
+        {
+            "name": "MD-6 Anti-Personnel Minefield",
+            "slot": "Stratagem",
+            "tags": [
+                "mines",
+                "explosive"
+            ]
+        },
+        {
+            "name": "B-1 Supply Pack",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack",
+                "high_fire_rate"
+            ]
+        },
+        {
+            "name": "GL-21 Grenade Launcher",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "grenade",
+                "explosive"
+            ]
+        },
+        {
+            "name": "LAS-98 Laser Cannon",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "laser",
+                "energy"
+            ]
+        },
+        {
+            "name": "MD-14 Incendiary Mines",
+            "slot": "Stratagem",
+            "tags": [
+                "mines",
+                "explosive",
+                "fire"
+            ]
+        },
+        {
+            "name": "AX/LAS-5 \"Guard Dog\" Rover",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack",
+                "energy",
+                "laser",
+                "guard_dog"
+            ]
+        },
+        {
+            "name": "ARC-3 Arc Thrower",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "energy",
+                "arc"
+            ]
+        },
+        {
+            "name": "MD-17 Anti-Tank Mines",
+            "slot": "Stratagem",
+            "tags": [
+                "mines",
+                "explosive",
+                "anti_tank"
+            ]
+        },
+        {
+            "name": "LAS-99 Quasar Cannon",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "energy",
+                "anti_tank",
+                "explosive",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "SH-32 Shield Generator Pack",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack",
+                "energy",
+                "shield"
+            ]
+        },
+        {
+            "name": "MD-8 Gas Mines",
+            "slot": "Stratagem",
+            "tags": [
+                "mines",
+                "gas"
+            ]
+        },
+        {
+            "name": "A/MG-43 Machine Gun Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "high_fire_rate"
+            ]
+        },
+        {
+            "name": "A/G-16 Gatling Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "high_fire_rate"
+            ]
+        },
+        {
+            "name": "A/M-12 Mortar Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "explosive",
+                "bomb"
+            ]
+        },
+        {
+            "name": "AX/AR-23 \"Guard Dog\"",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack",
+                "guard_dog"
+            ]
+        },
+        {
+            "name": "A/M-12 Mortar Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "explosive"
+            ]
+        },
+        {
+            "name": "A/MLS-4X Rocket Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "explosive"
+            ]
+        },
+        {
+            "name": "A/MLS-4X Rocket Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "energy"
+            ]
+        },
+        {
+            "name": "EXO-45 Patriot Exosuit",
+            "slot": "Stratagem",
+            "tags": [
+                "vehicle",
+                "exosuit",
+                "explosive"
+            ]
+        },
+        {
+            "name": "EXO-49 Emancipator Exosuit",
+            "slot": "Stratagem",
+            "tags": [
+                "vehicle",
+                "exosuit",
+                "explosive"
             ]
         }
     ]
