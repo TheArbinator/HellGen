@@ -1,0 +1,49 @@
+{
+    "primaries": [
+        {
+            "name": "AR-23C Liberator Concussive",
+            "slot": "Primary",
+            "tags": [
+                "assault_rifle"
+            ]
+        },
+        {
+            "name": "SG-225IE Breaker Incendiary",
+            "slot": "Primary",
+            "tags": [
+                "shotgun",
+                "fire"
+            ]
+        },
+        {
+            "name": "JAR-5 Dominator",
+            "slot": "Primary",
+            "tags": [
+                "explosive",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "P-4 Senator",
+            "slot": "Secondary",
+            "tags": [
+                "pistol",
+                "revolver",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-10 Incendiary",
+            "slot": "Throwable",
+            "tags": [
+                "grenade",
+                "fire"
+            ]
+        }
+    ],
+    "stratagems": []
+}

@@ -1,5 +1,6 @@
 import json
 import random
+import sys
 
 print("HellGen: A Helldivers 2 Loadout Generator by TheArbinator")
 print("This project is incomplete. Not all items are implemented.\n")
@@ -11,11 +12,21 @@ def read_json(file_path):
 
 
 default = read_json("data/default.json")
+dlc = read_json("config.json")
 
 primaries = default.get("primaries")
 secondaries = default.get("secondaries")
 throwables = default.get("throwables")
 stratagems = default.get("stratagems")
+
+if dlc.get("steeled_veterans"):
+    sv = read_json("data/steeled_veterans.json")
+    primaries.extend(sv.get("primaries"))
+    secondaries.extend(sv.get("secondaries"))
+    throwables.extend(sv.get("throwables"))
+    stratagems.extend(sv.get("stratagems"))
+
+
 
 primary = random.choice(primaries)
 secondary = random.choice(secondaries)
