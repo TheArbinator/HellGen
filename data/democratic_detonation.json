@@ -1,0 +1,47 @@
+{
+    "primaries": [
+        {
+            "name": "BR-14 Adjudicator",
+            "slot": "Primary",
+            "tags": [
+                "assault_rifle",
+                "armor_piercing"
+            ]
+        },
+        {
+            "name": "R-36 Eruptor",
+            "slot": "Primary",
+            "tags": [
+                "marksman_rifle",
+                "explosive"
+            ]
+        },
+        {
+            "name": "CB-9 Exploding Crossbow",
+            "slot": "Primary",
+            "tags": [
+                "explosive"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "GP-31 Grenade Pistol",
+            "slot": "Secondary",
+            "tags": [
+                "explosive"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-123 Thermite",
+            "slot": "Throwable",
+            "tags": [
+                "grenade",
+                "fire"
+            ]
+        }
+    ],
+    "stratagems": []
+}

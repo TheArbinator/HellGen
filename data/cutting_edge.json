@@ -1,0 +1,52 @@
+{
+    "primaries": [
+        {
+            "name": "LAS-16 Sickle",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "laser"
+            ]
+        },
+        {
+            "name": "SG-8P Punisher Plasma",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "plasma",
+                "shotgun"
+            ]
+        },
+        {
+            "name": "ARC-12 Blitzer",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "arc",
+                "shotgun",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "LAS-7 Dagger",
+            "slot": "Secondary",
+            "tags": [
+                "energy",
+                "laser",
+                "pistol"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-23 Stun",
+            "slot": "Throwable",
+            "tags": [
+                "grenade"
+            ]
+        }
+    ],
+    "stratagems": []
+}

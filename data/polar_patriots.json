@@ -1,0 +1,49 @@
+{
+    "primaries": [
+        {
+            "name": "AR-61 Tenderizer",
+            "slot": "Primary",
+            "tags": [
+                "assault_rifle"
+            ]
+        },
+        {
+            "name": "SMG-72 Tenderizer",
+            "slot": "Primary",
+            "tags": [
+                "smg"
+            ]
+        },
+        {
+            "name": "PLAS-101 Purifier",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "plasma",
+                "explosive",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "P-113 Verdict",
+            "slot": "Secondary",
+            "tags": [
+                "pistol",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-13 Incendiary Impact",
+            "slot": "Throwable",
+            "tags": [
+                "grenade",
+                "fire"
+            ]
+        }
+    ],
+    "stratagems": []
+}

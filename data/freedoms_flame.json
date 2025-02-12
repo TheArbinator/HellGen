@@ -1,0 +1,31 @@
+{
+    "primaries": [
+        {
+            "name": "SG-451 Cookout",
+            "slot": "Primary",
+            "tags": [
+                "shotgun",
+                "fire"
+            ]
+        },
+        {
+            "name": "FLAM-66 Torcher",
+            "slot": "Primary",
+            "tags": [
+                "fire"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "P-72 Crisper",
+            "slot": "Secondary",
+            "tags": [
+                "pistol",
+                "fire"
+            ]
+        }
+    ],
+    "throwables": [],
+    "stratagems": []
+}

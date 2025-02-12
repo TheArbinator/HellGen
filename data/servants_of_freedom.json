@@ -1,0 +1,45 @@
+{
+    "primaries": [
+        {
+            "name": "LAS-17 Double-Edge Sickle",
+            "slot": "Primary",
+            "tags": [
+                "energy",
+                "laser",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "GP-31 Ultimatum",
+            "slot": "Secondary",
+            "tags": [
+                "explosive",
+                "bomb",
+                "anti_tank"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-50 Seeker",
+            "slot": "Throwable",
+            "tags": [
+                "grenade",
+                "explosive"
+            ]
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "Portable Hellbomb",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack",
+                "bomb",
+                "anti_tank"
+            ]
+        }
+    ]
+}

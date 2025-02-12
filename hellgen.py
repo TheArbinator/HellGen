@@ -10,6 +10,14 @@ def read_json(file_path):
         data = json.load(file)
         return data
 
+def append_dlc(dlc_list, dlc_name, primaries_list, secondaries_list, throwables_list, stratagems_list):
+    if dlc_list.get(dlc_name):
+        filename = "data/" + dlc_name + ".json"
+        dlc_data = read_json(filename)
+        primaries_list.extend(dlc_data.get("primaries"))
+        secondaries_list.extend(dlc_data.get("secondaries"))
+        throwables_list.extend(dlc_data.get("throwables"))
+        stratagems_list.extend(dlc_data.get("stratagems"))
 
 default = read_json("data/default.json")
 dlc = read_json("config.json")
@@ -19,13 +27,16 @@ secondaries = default.get("secondaries")
 throwables = default.get("throwables")
 stratagems = default.get("stratagems")
 
-if dlc.get("steeled_veterans"):
-    sv = read_json("data/steeled_veterans.json")
-    primaries.extend(sv.get("primaries"))
-    secondaries.extend(sv.get("secondaries"))
-    throwables.extend(sv.get("throwables"))
-    stratagems.extend(sv.get("stratagems"))
-
+append_dlc(dlc, "steeled_veterans", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "cutting_edge", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "democratic_detonation", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "polar_patriots", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "viper_commandos", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "freedoms_flame", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "chemical_agents", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "truth_enforcers", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "urban_legends", primaries, secondaries, throwables, stratagems)
+append_dlc(dlc, "servants_of_freedom", primaries, secondaries, throwables, stratagems)
 
 
 primary = random.choice(primaries)

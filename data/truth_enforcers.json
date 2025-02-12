@@ -1,0 +1,33 @@
+{
+    "primaries": [
+        {
+            "name": "SG-20 Halt",
+            "slot": "Primary",
+            "tags": [
+                "shotgun"
+            ]
+        },
+        {
+            "name": "SMG-32 Reprimand",
+            "slot": "Primary",
+            "tags": [
+                "smg",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "PLAS-15 Loyalist",
+            "slot": "Secondary",
+            "tags": [
+                "pistol",
+                "energy",
+                "plasma",
+                "armor_piercing"
+            ]
+        }
+    ],
+    "throwables": [],
+    "stratagems": []
+}

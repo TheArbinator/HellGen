@@ -1,0 +1,39 @@
+{
+    "primaries": [],
+    "secondaries": [
+        {
+            "name": "CQC-19 Stun Lance",
+            "slot": "Secondary",
+            "tags": [
+                "melee"
+            ]
+        }
+    ],
+    "throwables": [],
+    "stratagems": [
+        {
+            "name": "SH-51 Directional Shield",
+            "slot": "Stratagem",
+            "tags": [
+                "shield"
+            ]
+        },
+        {
+            "name": "A/FLAM-40 Flame Sentry",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "sentry",
+                "fire"
+            ]
+        },
+        {
+            "name": "E/AT-12 Anti-tank Emplacement",
+            "slot": "Stratagem",
+            "tags": [
+                "turret",
+                "anti_tank"
+            ]
+        }
+    ]
+}

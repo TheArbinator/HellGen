@@ -99,7 +99,8 @@
             "slot": "Secondary",
             "tags": [
                 "pistol",
-                "smg"
+                "smg",
+                "high_fire_rate"
             ]
         }
     ],

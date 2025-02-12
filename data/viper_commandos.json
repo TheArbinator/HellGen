@@ -1,0 +1,31 @@
+{
+    "primaries": [
+        {
+            "name": "AR-23A Liberator Carbine",
+            "slot": "Primary",
+            "tags": [
+                "assault_rifle",
+                "high_fire_rate"
+            ]
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "SG-22 Bushwhacker",
+            "slot": "Secondary",
+            "tags": [
+                "shotgun"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "K-2 Throwing Knife",
+            "slot": "Throwable",
+            "tags": [
+                "melee"
+            ]
+        }
+    ],
+    "stratagems": []
+}

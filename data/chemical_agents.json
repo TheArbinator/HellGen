@@ -1,0 +1,40 @@
+{
+    "primaries": [],
+    "secondaries": [
+        {
+            "name": "P-11 Stim Pistol",
+            "slot": "Secondary",
+            "tags": [
+                "pistol"
+            ]
+        }
+    ],
+    "throwables": [
+        {
+            "name": "G-4 Gas",
+            "slot": "Throwable",
+            "tags": [
+                "grenade",
+                "gas"
+            ]
+        }
+    ],
+    "stratagems": [
+        {
+            "name": "TX-41 Sterilizer",
+            "slot": "Stratagem",
+            "tags": [
+                "support_weapon",
+                "gas"
+            ]
+        },
+        {
+            "name": "AX/TX-13 \"Guard Dog\" Dog Breath",
+            "slot": "Stratagem",
+            "tags": [
+                "backpack",
+                "guard_dog"
+            ]
+        }
+    ]
+}
