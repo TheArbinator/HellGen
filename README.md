@@ -6,4 +6,7 @@ USAGE: python hellgen.py
 This generator takes into account the warbonds the user has. Please use configure.py to set it up.
 
 KNOWN ISSUES:
-- Only contains content from the Helldivers Mobilize and Steeled Veterans warbonds.
+- Does not have KILLZONE Superstore content.
+
+PLANNED FEATURES:
+- Conversion into a website
